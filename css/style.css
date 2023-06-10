@@ -30,6 +30,8 @@ header {
   justify-content: center;
 
   font-size: 18px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 /* Règles nav */
@@ -121,6 +123,7 @@ aside {
 
   background-color: var(--black);
   color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 aside figure {
