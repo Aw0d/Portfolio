@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="/css/index_style.css" />
+    <!-- Feuille de style spécifique à index.html -->
+  </head>
+
+  <body>
+    <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li>
+            <a class="actif" href="/mes-projets.html">Mes projets</a>
+          </li>
+          <li><a href="/pages/me-contacter.html">Me contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 
+              Menu latéral montrant une photo de profil
+              ainsi que des informations personnelles
+            -->
+      <aside id="info-aside">
+      </aside>
+
+      <!-- Le contenu principal apparait ici -->
+      <article>
+        <!-- Titre de la page -->
+        <h1>Installation de services réseau</h1>
+
+        <section>
+          <h2>Objectif</h2>
+
+          <p>
+            L'objectif de cette SAÉ était d'installer un serveur Debian 11 sans
+            interface graphique sur une machine virtuelle puis d'installer les
+            services suivant:
+          </p>
+          <ul>
+            <li>Apache</li>
+            <li>PostgreSQL</li>
+            <li>PHP</li>
+            <li>PhpPgAdmin</li>
+          </ul>
+          <p>Il fallait ensuite réaliser un guide d'installation en Anglais.</p>
+
+          <h2>Les compétences que j'ai mise en oeuvre</h2>
+          <p>
+            Au cours de cette SAÉ, j'ai appris à installer et à configurer un
+            serveur, ce qui m'a permis de comprendre les étapes nécessaires pour
+            mettre en place un environnement de serveur fonctionnel. De plus,
+            j'ai développé la capacité de rechercher et de me documenter
+            efficacement pour installer et configurer divers logiciels. Enfin,
+            j'ai eu l'occasion de pratiquer mes compétences en rédaction en
+            anglais en créant un guide détaillé. Cela m'a permis de renforcer
+            mes compétences en communication technique et de présenter des
+            informations claires et concises dans une langue étrangère.
+          </p>
+
+          <p>
+            Voici le document en anglais que je devez réaliser pour cette SAÉ:
+            <a href="../../ressources/Network_Installation_Guide.pdf"
+              >Network services installation guide</a
+            >
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer></footer>
+  </body>
+  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="/js/add-aside.js"></script>
+</html>

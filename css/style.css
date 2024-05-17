@@ -1,9 +1,9 @@
 :root {
-  --black: #202020;
-  --dark-grey: #3f3f3f;
-  --medium-grey: #707070;
-  --yellow: #ffdf6c;
-  --white: #ffffff;
+  --black: #1f242e;
+  --dark-grey: #52617a;
+  --medium-grey: #7587a3;
+  --yellow: #7096d4;
+  --white: #edeff3;
 }
 
 @font-face {

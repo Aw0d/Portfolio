@@ -1,0 +1,17 @@
+#sect-competences {
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.langages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+
+    padding-left: 20px;
+}
+
+.langages li {
+    flex-basis: 45%;
+}
