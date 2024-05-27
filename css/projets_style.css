@@ -16,12 +16,17 @@
 }
 
 .sae-projets figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   position: relative;
   width: 300px;
   height: 169px;
   overflow: hidden;
   margin: 0;
 
+  background-color: var(--black);
   box-shadow: 0px 0px 6px black;
   border-radius: 5px;
 
@@ -30,7 +35,8 @@
 
 .miniature {
   border-radius: 5px;
-  vertical-align: bottom;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .sae-projets figure:hover {
