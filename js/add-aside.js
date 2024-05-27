@@ -1,3 +1,3 @@
 $(function() {
-    $("#info-aside").load("/pages/aside.html");
+    $("#info-aside").load("https://aw0d.github.io/Portfolio/pages/aside.html");
 });
