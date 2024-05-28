@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mon portfolio</title>
+  <link rel="stylesheet" href="https://aw0d.github.io/Portfolio/css/style.css" />
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="https://aw0d.github.io/Portfolio/css/index_style.css" />
+  <!-- Feuille de style spécifique à index.html -->
+</head>
+
+<body>
+  <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://aw0d.github.io/Portfolio/index.html">Accueil</a></li>
+        <li>
+          <a class="actif" href="https://aw0d.github.io/Portfolio/pages/mes-projets.html">Mes projets</a>
+        </li>
+        <li><a href="https://aw0d.github.io/Portfolio/pages/me-contacter.html">Me contacter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 
+              Menu latéral montrant une photo de profil
+              ainsi que des informations personnelles
+            -->
+    <aside id="info-aside">
+    </aside>
+
+    <!-- Le contenu principal apparait ici -->
+    <article>
+      <!-- Titre de la page -->
+      <h1>What if?</h1>
+
+      <section>
+        <h2>Objectif</h2>
+        <p>
+          En groupes de 8, l'objectif était de créer un jeu ludo-éducatif destiné aux élèves de collège ou de lycée.
+          Nous avons eu quelques séances consacrées à la conception du jeu, suivies de trois semaines pour sa
+          réalisation. Ce projet offrait une grande liberté. Nous devions choisir précisément notre public cible, la
+          matière sur laquelle notre jeu allait porter, ainsi que les technologies que nous allions utiliser.
+        </p>
+
+        <p>
+          Notre jeu porte sur l'histoire et s'adresse aux élèves de troisième souhaitant réviser pour le brevet. Il est
+          structuré en niveaux correspondant aux chapitres du programme d'histoire. Pour chaque niveau, un scénario est
+          raconté au joueur. Dans ce scénario, il y a deux personnages : un narrateur principal qui apporte des éléments
+          de connaissances aux joueurs et un personnage loufoque qui propose des mini-jeux, permettant de tester le
+          joueur et de le maintenir actif.
+
+          <br>Ces mini-jeux comprennent une carte interactive, un puzzle, une charade, un QCM et un texte à trous. Si le
+          joueur se trompe ou échoue à un mini-jeu, une fin alternative, avec un ton humoristique, lui est présentée.
+        </p>
+
+        <p>
+          Pour ce projet, nous devions également prendre en compte les besoins des professeurs. Nous avons donc mis en
+          place une interface spécifique qui permet à un professeur de créer des classes et d'y inviter des élèves.
+          Ainsi, il peut suivre la progression de chaque élève et indiquer quels chapitres sont à faire.
+        </p>
+
+        <p>
+          Pour les technologies choisies, nous avons décidé de créer une application Web. Pour la partie back-end, nous
+          avons opté pour PHP sans utiliser de framework, car nous n'en connaissions pas à ce moment-là et cela aurait
+          ajouté un temps d'apprentissage supplémentaire alors que les délais étaient déjà serrés. Pour la partie
+          front-end, nous avons utilisé HTML, CSS et JavaScript, là aussi sans framework, pour les mêmes raisons que
+          pour PHP. Enfin, pour la partie serveur, une machine virtuelle nous a été fournie. Nous y avons installé un
+          serveur Web Apache ainsi qu'un gestionnaire de base de données PostgreSQL.
+        </p>
+
+        <h2>Travail réalisé</h2>
+        <p>
+          Au cours de ce projet, j'ai participé à la réalisation des mini-jeux. J'ai codé la carte interactive, le
+          puzzle, le QCM et le texte à trous en JavaScript. Je me suis également chargé de concevoir et de réaliser le
+          processus de jeu, en intégrant la logique de communication entre le client et le serveur.
+        </p>
+
+        <h2>Les compétences que j'ai mises en œuvre</h2>
+        <p>
+          Au cours de cette SAÉ, j'ai pu développer et approfondir mes compétences en JavaScript et en PHP. J'ai
+          également grandement amélioré ma capacité à travailler en équipe. En effet, étant donné la taille de notre
+          groupe, il était primordial de bien communiquer pour mener à bien le projet.
+        </p>
+
+        <p>
+          Voici notre dossier de projet final :
+          <a href="https://aw0d.github.io/Portfolio/ressources/Iteration3-Dossier_Projet.pdf">Dossier de projet</a>.
+          <br>Malheuresement, la machine virtuelle n'étant plus disponible, nous n'avons pas de version jouable
+          actuellement.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer></footer>
+</body>
+<script src="https://aw0d.github.io/Portfolio/js/jquery-3.7.1.min.js"></script>
+<script src="https://aw0d.github.io/Portfolio/js/add-aside.js"></script>
+
+</html>
