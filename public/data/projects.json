@@ -1,5 +1,49 @@
 [
   {
+    "slug": "banc-test-domotique",
+    "title": "Développement d'un banc de tests pour des protocoles radio domotiques",
+    "category": "Projets Professionnels",
+    "year": "2024 / 2025",
+    "badge": "Banc de tests pour des protocoles radio",
+    "img": "./../img/banc-test.jpg",
+    "link": "./projets/alternance/banc-test-domotique.html",
+    "sections": [
+      {
+        "title": "Contexte du Projet",
+        "content": [
+          "Ce projet a été réalisé dans le cadre de mon alternance chez Elyxoft, une entreprise spécialisée dans le développement logiciel pour systèmes communicants. Il s'inscrit dans une mission pour Schneider Electric, au sein de la Wireless Connectivity Team (WCT), une équipe transverse dédiée à l'évaluation de technologies radio émergentes telles que Zigbee et Thread.",
+          "L'objectif du projet était de concevoir un banc de test automatisé et reproductible, permettant de simuler des scénarios complexes avec des réseaux maillés pour évaluer la robustesse et la performance des protocoles domotiques. Le système repose sur une infrastructure à base de Raspberry Pi équipés de dongles radio, contrôlés via une image personnalisée baptisée 'multitool' et intégrés dans une plateforme d'orchestration WalT."
+        ]
+      },
+      {
+        "title": "Travail Réalisé",
+        "content": [
+          "J'ai conçu et développé de A à Z l'image système 'multitool' déployée sur les Raspberry Pi. Cette image est responsable de la détection automatique des dongles, du choix du firmware adapté (Zigbee ou Thread), de son téléversement, et de l'exposition d'une API FastAPI permettant le contrôle distant de chaque nœud.",
+          "J'ai structuré le projet en modules réutilisables, dont 'dongle_manager', une bibliothèque Python permettant une gestion centralisée, robuste et dynamique des dongles radio.",
+          "J'ai également participé à l'intégration de multitool dans le framework de test existant : ajout de nouveaux endpoints API, amélioration des réponses, et assistance au développeur principal dans l'interprétation de la logique de multitool.",
+          "Enfin, j'ai mis en place des scénarios de test automatisés (ping Thread, appairage Zigbee de masse) et participé à la résolution de bugs liés à la charge réseau ou à l'instabilité matérielle."
+        ]
+      },
+      {
+        "title": "Les Compétences que J'ai Mises en Œuvre",
+        "content": [
+          "✔️ Développement backend embarqué (Python, FastAPI)",
+          "✔️ Architecture logicielle modulaire (multi-dongles, auto-détection, API REST)",
+          "✔️ Connaissances systèmes (Debian, services systemd, ports série, gestion USB)",
+          "✔️ Interaction réseau et contournement de contraintes de sécurité (proxys, firewall, routage API via WalT)",
+          "✔️ Débogage complexe dans un environnement de test à grande échelle (100 Raspberry Pi)",
+          {
+            "text": "Le rapport complet de cette alternance est disponible ici :",
+            "link": {
+              "href": "ressources/Camus_Mathieu_Rapport_Alternance_BUT3.pdf",
+              "text": "Rapport d'alternance"
+            }
+          }
+        ]
+      }
+    ]
+  },  
+  {
     "slug": "application-complexe",
     "title": "Amélioration d'une application : Mon carnet de suivi de recherche de stage",
     "category": "Projets Universitaires",
@@ -38,116 +82,6 @@
     ]
   },
   {
-    "slug": "classification-depeches",
-    "title": "Développement d'un programme de classification automatique de dépêches",
-    "category": "Projets Universitaires",
-    "year": "2022 / 2023",
-    "badge": "Développement d'un programme de classification automatique de dépêches",
-    "img": "./../img/classification-depeches.jpg",
-    "link": "./projets/sae/classification-depeches.html",
-    "sections": [
-      {
-        "title": "Objectif",
-        "content": [
-          "Par groupe de 2, nous devions créer un programme de classification automatique de dépêches aussi fiable et aussi rapide que possible en Java. Une dépêche est un court texte correspondant à une information journalistique, telle que :",
-          "Coupe de l'UEFA : l'OM victorieux, les Girondins défaits L'OM a remporté son match à domicile sur le score de 3 à 0. Bordeaux a perdu dans les arrêts de jeu.",
-          "Le programme doit attribuer à chaque dépêche, l'une des 5 catégories suivantes :"
-        ]
-      },
-      {
-        "title": "Les compétences que j'ai mise en oeuvre",
-        "content": [
-          "Dans le cadre de cette SAÉ, j'ai eu l'occasion d'approfondir mes compétences en programmationet notamment en Java. Cela m'a permis d'explorer davantage les concepts fondamentaux de la programmation et de consolider ma compréhension de Java. De plus, j'ai eu l'opportunité de me plonger dans le domaine de l'algorithmie, en réfléchissant spécifiquement aux questions de coût algorithmique. Cela m'a permis de développer ma capacité à concevoir des solutions efficaces et optimisées, en tenant compte des performances et de l'efficacité des algorithmes utilisés. Ces apprentissages combinés ont enrichi mes compétences en programmation et m'ont permis d'approfondir ma compréhension de l'algorithmie.",
-          {
-            "text": "Voici le document en anglais que nous devions réaliser pour cette SAÉ: ",
-            "link": {
-              "href": "ressources/Classification-Auto.pdf",
-              "text": "Classification automatique"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "creation-BD",
-    "title": "Création d'une base de données",
-    "category": "Projets Universitaires",
-    "year": "2022 / 2023",
-    "badge": "Création d'une base de données",
-    "img": "./../img/creation-bd.jpg",
-    "link": "./projets/sae/creation-BD.html",
-    "sections": [
-      {
-        "title": "Ce que j'ai appris",
-        "content": [
-          "Cette SAÉ m'a permis de mettre en application des notions vu en cours de base de données sur un cas concret. J'ai ainsi pu approfondir mes compétences de conception de base de données et améliorer ma maitrise du langage SQL."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "creation-site",
-    "title": "Création d'un site internet pour une ESN",
-    "category": "Projets Universitaires",
-    "year": "2022 / 2023",
-    "badge": "Création d'un site internet pour une ESN",
-    "img": "./../img/site-entreprise.jpg",
-    "link": "./projets/sae/creation-site.html",
-    "sections": [
-      {
-        "title": "Objectif",
-        "content": [
-          "Par groupe de 4, nous devions créer un site résumant les informations disponibles sur le site d'une ESN pour qu'elle soit facilement compréhensible par un élève de troisième cherchant un stage. Pour cela le travail était divisé en plusiseurs étapes:"
-        ]
-      },
-      {
-        "title": "Les compétences que j'ai mise en oeuvre",
-        "content": [
-          "Pour cette SAÉ, j'ai eu l'opportunité d'approfondir mes compétences dans plusieurs domaines clés. Tout d'abord, j'ai développé mes compétences en synthèse d'informations, en étant capable de recueillir et de condenser les informations essentielles sur l'entreprise CGI. De plus, j'ai renforcé mes compétences en travail d'équipe, en collaborant avec les autres membres de mon groupe pour partager des idées, résoudre des problèmes et garantir une coordination efficace tout au long du projet. Enfin, j'ai acquis une expertise solide en HTML/CSS, en utilisant ces langages pour créer la structure, la mise en page et le design du site. En complément, j'ai également appris à réaliser des maquettes sur Whimsical.",
-          {
-            "text": "Voici un lien vers notre travail: ",
-            "link": {
-              "href": "https://aw0d.github.io/sae-cgi/index.html",
-              "text": "SAÉ CGI"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "exploitation-BD",
-    "title": "Exploitation d'une base de données",
-    "category": "Projets Universitaires",
-    "year": "2022 / 2023",
-    "badge": "Exploitation d'une base de données",
-    "img": "./../img/exploitation-bd.jpg",
-    "link": "./projets/sae/exploitation-BD.html",
-    "sections": [
-      {
-        "title": "Objectif",
-        "content": [
-          "Par groupe de 2, l'objectif était de réaliser une étude simple contenant des graphiques pour répondre à une question précise à partir d'une base de données disponible en opendata sur les accidents de la route en France.",
-          "Le travail était divisé en plusieurs étapes:"
-        ]
-      },
-      {
-        "title": "Les compétences que j'ai mise en oeuvre",
-        "content": [
-          "Au cours de cette SAÉ, j'ai pu développer et approfondir mes compétences en bases de données et notamment en SQL. J'ai acquis une compréhension solide des principes fondamentaux de la gestion de bases de données et j'ai appris à concevoir et à interroger efficacement des bases de données relationnelles. De plus, j'ai exploré le potentiel du RMarkdown, ce qui m'a permis d'améliorer mes compétences en matière de génération de rapports et de présentation de résultats. Enfin, j'ai eu l'opportunité de perfectionner ma rédaction en anglais.",
-          {
-            "text": "Voici le document en anglais que nous devions réaliser pour cette SAÉ: ",
-            "link": {
-              "href": "#",
-              "text": "Etude statistique"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
     "slug": "gamejam",
     "title": "GameJam Python",
     "category": "Projets Universitaires",
@@ -179,60 +113,6 @@
             "link": {
               "href": "https://github.com/Aw0d/GameJam-2023",
               "text": "University Rush"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "installation-poste",
-    "title": "Installation d'un poste de travail Linux pour le développement",
-    "category": "Projets Professionnels",
-    "year": "2024",
-    "badge": "Installation d'un poste de travail Linux pour le développement",
-    "img": "./../img/poste-de-travail.jpg",
-    "link": "./projets/sae/installation-poste.html",
-    "sections": [
-      {
-        "title": "Objectif",
-        "content": [
-          "L'objectif de cette SAÉ était d'installer une distribution linux (Debian) sur une machine virtuelle puis d'installer des outils de développement tel que JDK pour la programmation JAVA et un IDE."
-        ]
-      },
-      {
-        "title": "Ce que j'ai appris",
-        "content": [
-          "Cette SAÉ m'a permis d'apprendre à:"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "installation-services-reseaux",
-    "title": "Installation de services réseau",
-    "category": "Projets Universitaires",
-    "year": "2022 / 2023",
-    "badge": "Installation de services réseau",
-    "img": "./../img/service-reseau.jpg",
-    "link": "./projets/sae/installation-services-reseaux.html",
-    "sections": [
-      {
-        "title": "Objectif",
-        "content": [
-          "L'objectif de cette SAÉ était d'installer un serveur Debian 11 sans interface graphique sur une machine virtuelle puis d'installer les services suivant:",
-          "Il fallait ensuite réaliser un guide d'installation en Anglais."
-        ]
-      },
-      {
-        "title": "Les compétences que j'ai mise en oeuvre",
-        "content": [
-          "Au cours de cette SAÉ, j'ai appris à installer et à configurer un serveur, ce qui m'a permis de comprendre les étapes nécessaires pour mettre en place un environnement de serveur fonctionnel. De plus, j'ai développé la capacité de rechercher et de me documenter efficacement pour installer et configurer divers logiciels. Enfin, j'ai eu l'occasion de pratiquer mes compétences en rédaction en anglais en créant un guide détaillé. Cela m'a permis de renforcer mes compétences en communication technique et de présenter des informations claires et concises dans une langue étrangère.",
-          {
-            "text": "Voici le document en anglais que je devez réaliser pour cette SAÉ: ",
-            "link": {
-              "href": "ressources/Network_Installation_Guide.pdf",
-              "text": "Network services installation guide"
             }
           }
         ]

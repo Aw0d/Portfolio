@@ -2,11 +2,10 @@
   <main>
     <info-aside />
     <article>
-      <h1>Me contacter</h1>
-      <p>Vous pouvez me contacter:</p>
+      <h1>Contact</h1>
+      <p>Que ce soit pour discuter d'un projet, d'une opportunité ou simplement échanger, n'hésite pas à me contacter.</p>
       <ul>
-        <li>par mail &#128231; : <a href="mailto:Mathieu.Camus@etu.univ-grenoble-alpes.fr">Mathieu.Camus@etu.univ-grenoble-alpes.fr</a></li>
-        <li>par téléphone &#128381; : 07 68 94 94 76</li>
+        <li>Email &#128231; : <a href="mailto:Mathieu.Camus@etu.univ-grenoble-alpes.fr">Mathieu.Camus@etu.univ-grenoble-alpes.fr</a></li>
       </ul>
       
     </article>
