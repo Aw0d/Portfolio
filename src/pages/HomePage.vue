@@ -3,27 +3,39 @@
     <info-aside />
     <article>
       <h1>Page d'accueil</h1>
-      <p>
-        Bienvenue sur mon Portfolio ! Je suis Mathieu Camus, un étudiant en
-        BUT Informatique passionné par la programmation. Je m'efforce d'allier
-        mes connaissances techniques à ma créativité pour apporter des
-        solutions uniques aux problèmes rencontrés.
-      </p>
 
       <section>
-        <h2>Qui-suis-je ?</h2>
+        <h2>À propos de moi</h2>
         <p>
-          Je suis un étudiant passionné qui cherche constamment à élargir mes
-          horizons dans le domaine de l'informatique. Mon parcours en BUT
-          Informatique me permet d'acquérir une solide base de connaissances
-          et de compétences techniques, notamment dans les langages de
-          programmation tels que Java, C, C++, HTML, CSS, JavaScript, Python, SQL.
-          Ce qui me motive, c'est la possibilité de créer des solutions qui
-          facilitent la vie des utilisateurs et qui résolvent des problèmes concrets.
-          J'adore explorer de nouvelles technologies et j'aime me tenir au
-          courant des dernières tendances de l'industrie. Ma volonté d'apprendre
-          me permet de m'adapter rapidement aux nouveaux défis et de trouver des
-          solutions efficaces.
+          Je m'appelle Mathieu Camus, actuellement étudiant en 3e année du BUT Informatique, spécialité
+          <i>Réalisation d'applications : conception, développement, validation</i>, à l'IUT2 de Grenoble.
+          Je suis admis à l'Esisar Valence (école d'ingénieurs de Grenoble INP) où je poursuivrai mes études en
+          alternance chez STMicroelectronics Grenoble.
+        </p>
+        <p>
+          J'ai découvert les systèmes embarqués lors de mon alternance chez Elyxoft, où j'ai développé des outils pour
+          piloter et tester des équipements physiques connectés (via Zigbee ou Thread).
+          Ce qui m'a immédiatement plu dans ce domaine, c'est sa proximité avec le monde réel.
+          Les systèmes embarqués interagissent avec leur environnement, que ce soit via des LEDs, des capteurs, des
+          actionneurs ou à travers des communications réseau fondées sur des principes physiques.
+        </p>
+        <p>
+          Aujourd'hui, après avoir travaillé sur les couches logicielles qui interagissent avec l'embarqué, j'aspire à
+          plonger plus bas dans la pile, pour me rapprocher du matériel, comprendre ses contraintes et contribuer à des
+          solutions efficaces et robustes.
+        </p>
+        <p>
+          Je suis une personne polyvalente, autonome et rigoureuse, toujours motivée à apprendre et à m'adapter.
+        </p>
+      </section>
+
+      <section>
+        <h2>Ce que je recherche</h2>
+        <p>
+          Je suis encore en exploration des domaines applicatifs autour de l'embarqué (automobile, santé, domotique,
+          temps réel…).
+          Ce qui m'intéresse avant tout, c'est comprendre les problématiques propres à un système donné et concevoir des
+          solutions adaptées, tout en tenant compte des contraintes techniques et physiques.
         </p>
       </section>
 
@@ -40,34 +52,56 @@
                   <li>C</li>
                   <li>Python</li>
                   <li>Java</li>
-                </ul>
-              </li>
-              <li>
-                Langages Web:
-                <ul class="langages">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
                   <li>PHP</li>
                 </ul>
               </li>
               <li>
-                Base de données:
+                base de données:
                 <ul class="langages">
-                  <li>PostgreSQL</li>
+                  <li>SQL (PostgreSQL)</li>
+                  <li> MongoDB</li>
+                  <li> Neo4J</li>
+                  <li>ElasticSearch</li>
                 </ul>
               </li>
               <li>
-                Création d'IHM:
+                développement Web:
                 <ul class="langages">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Angular</li>
+                </ul>
+              </li>
+              <li>
+                Outils de développement :
+                <ul class="langages">
+                  <li>Git</li>
+                  <li>Docker</li>
+                  <li>Visual Paradigm</li>
+                  <li>PlantUML</li>
+                </ul>
+              </li>
+              <li>
+                Frameworks:
+                <ul class="langages">
+                  <li>Flutter</li>
                   <li>JavaFX</li>
                   <li>Qt</li>
                 </ul>
               </li>
               <li>
-                Gestion de projet:
+                Tests:
                 <ul class="langages">
-                  <li>Git</li>
+                  <li>Mocha</li>
+                  <li>Cypress</li>
+                </ul>
+              </li>
+              <li>
+                Matériel et systèmes embarqués :
+                <ul class="langages">
+                  <li>OpenThread, Zigbee, BLE</li>
+                  <li>Raspberry Pi, ESP32</li>
                 </ul>
               </li>
             </ul>
@@ -80,15 +114,9 @@
               <li>Autonome</li>
               <li>Polyvalent</li>
               <li>Persévérant</li>
-              <li>Esprit critique</li>
             </ul>
           </div>
         </section>
-        <p>
-          N'hésitez pas à explorer davantage mes compétences techniques dans
-          la section "Mes Projets" où je décris en détail comment j'ai utilisé
-          ces compétences pour réaliser des projets concrets.
-        </p>
       </section>
 
       <section>
