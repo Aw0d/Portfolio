@@ -1,0 +1,14 @@
+:root {
+  --black: #1f242e;
+  --dark-grey: #52617a;
+  --medium-grey: #7587a3;
+  --yellow: #7096d4;
+  --white: #edeff3;
+}
+
+@font-face {
+  font-family: "Gantari";
+  src: url("/fonts/Gantari-Regular.ttf");
+}
+/* Copied from previous project global stylesheet */
+/* ... you can refine later ... */

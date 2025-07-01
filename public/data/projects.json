@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "application-complexe",
+    "title": "Amélioration d'une application : Mon carnet de suivi de recherche de stage",
+    "category": "Projets Universitaires",
+    "year": "2023 / 2024",
+    "badge": "Carnet de suivi de recherche de stage",
+    "img": "./../img/application-complexe.jpg",
+    "link": "./projets/sae/application-complexe.html",
+    "sections": [
+      {
+        "title": "Contexte du Projet",
+        "content": [
+          "Ce projet s'inscrit dans le cadre de l'amélioration et de l'optimisation d'une application existante nommée \"Mon carnet de suivi de recherche de stage\". Cette application est conçue pour aider les étudiants à suivre leurs candidatures de stage et permettre aux responsables de stages de gérer les offres et les candidatures. L'objectif principal du projet était d'évaluer et d'améliorer la conception, l'ergonomie, les performances et la qualité logicielle de l'application. Les améliorations ont couvert plusieurs aspects du cycle de conception et de développement logiciel.",
+          "L'objectif principal était de réaliser une analyse approfondie de l'interface utilisateur en utilisant les critères d'ergonomie de Bastien & Scapin pour identifier les forces et les faiblesses de l'application. À partir de cette analyse, nous avons entrepris d'améliorer l'interface utilisateur de l'application mobile. En parallèle, une reconception du modèle de données a été effectuée pour garantir sa conformité à la troisième forme normale, assurant ainsi une meilleure organisation et gestion des données.",
+          "Nous avons également formalisé le processus de recherche de stage pour vérifier la conformité de l'implantation logicielle. Une rétroconception du code a été nécessaire pour comprendre l'organisation des fichiers de code et identifier les principales fonctionnalités. Des tests fonctionnels et utilisateurs ont été réalisés pour justifier les choix en termes de cibles de tests et de couvertures, et détailler le jeu de tests mis en place. Enfin, le service web a été conteneurisé en utilisant Docker, permettant une gestion plus efficace de l'environnement de développement."
+        ]
+      },
+      {
+        "title": "Travail Réalisé",
+        "content": [
+          "Dans le cadre de ce projet, j'ai joué un rôle clé dans plusieurs aspects. Mon principal apport a été la conteneurisation du service web en utilisant Docker. De plus, j'ai ajouté des tests fonctionnels pour garantir la qualité et les performances de l'application. J'ai également contribué à l'amélioration du service web en participant à la rétroconception du code et à l'optimisation des fonctionnalités existantes."
+        ]
+      },
+      {
+        "title": "Les Compétences que J'ai Mises en Œuvre",
+        "content": [
+          "Ce projet m'a permis de développer et d'approfondir plusieurs compétences clés. J'ai renforcé mes capacités en analyse et conception, notamment à travers l'amélioration de l'ergonomie et de la conception des interfaces utilisateur. En modélisation des données, j'ai mis en application les compétences vues en cours dans la conception de modèles conformes aux normes de normalisation. Mon rôle dans la conteneurisation du service web m'a permis de maîtriser l'utilisation de Docker pour gérer des environnements de développement. Enfin, j'ai amélioré mes compétences en tests et validation grâce à la mise en place de tests fonctionnels.",
+          {
+            "text": "Voici notre rapport d'amélioration : .",
+            "link": {
+              "href": "ressources/application-complexe-rapport.pdf",
+              "text": "Rapport d'amélioration"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "classification-depeches",
+    "title": "Développement d'un programme de classification automatique de dépêches",
+    "category": "Projets Universitaires",
+    "year": "2022 / 2023",
+    "badge": "Développement d'un programme de classification automatique de dépêches",
+    "img": "./../img/classification-depeches.jpg",
+    "link": "./projets/sae/classification-depeches.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "Par groupe de 2, nous devions créer un programme de classification automatique de dépêches aussi fiable et aussi rapide que possible en Java. Une dépêche est un court texte correspondant à une information journalistique, telle que :",
+          "Coupe de l'UEFA : l'OM victorieux, les Girondins défaits L'OM a remporté son match à domicile sur le score de 3 à 0. Bordeaux a perdu dans les arrêts de jeu.",
+          "Le programme doit attribuer à chaque dépêche, l'une des 5 catégories suivantes :"
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mise en oeuvre",
+        "content": [
+          "Dans le cadre de cette SAÉ, j'ai eu l'occasion d'approfondir mes compétences en programmationet notamment en Java. Cela m'a permis d'explorer davantage les concepts fondamentaux de la programmation et de consolider ma compréhension de Java. De plus, j'ai eu l'opportunité de me plonger dans le domaine de l'algorithmie, en réfléchissant spécifiquement aux questions de coût algorithmique. Cela m'a permis de développer ma capacité à concevoir des solutions efficaces et optimisées, en tenant compte des performances et de l'efficacité des algorithmes utilisés. Ces apprentissages combinés ont enrichi mes compétences en programmation et m'ont permis d'approfondir ma compréhension de l'algorithmie.",
+          {
+            "text": "Voici le document en anglais que nous devions réaliser pour cette SAÉ: ",
+            "link": {
+              "href": "ressources/Classification-Auto.pdf",
+              "text": "Classification automatique"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "creation-BD",
+    "title": "Création d'une base de données",
+    "category": "Projets Universitaires",
+    "year": "2022 / 2023",
+    "badge": "Création d'une base de données",
+    "img": "./../img/creation-bd.jpg",
+    "link": "./projets/sae/creation-BD.html",
+    "sections": [
+      {
+        "title": "Ce que j'ai appris",
+        "content": [
+          "Cette SAÉ m'a permis de mettre en application des notions vu en cours de base de données sur un cas concret. J'ai ainsi pu approfondir mes compétences de conception de base de données et améliorer ma maitrise du langage SQL."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "creation-site",
+    "title": "Création d'un site internet pour une ESN",
+    "category": "Projets Universitaires",
+    "year": "2022 / 2023",
+    "badge": "Création d'un site internet pour une ESN",
+    "img": "./../img/site-entreprise.jpg",
+    "link": "./projets/sae/creation-site.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "Par groupe de 4, nous devions créer un site résumant les informations disponibles sur le site d'une ESN pour qu'elle soit facilement compréhensible par un élève de troisième cherchant un stage. Pour cela le travail était divisé en plusiseurs étapes:"
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mise en oeuvre",
+        "content": [
+          "Pour cette SAÉ, j'ai eu l'opportunité d'approfondir mes compétences dans plusieurs domaines clés. Tout d'abord, j'ai développé mes compétences en synthèse d'informations, en étant capable de recueillir et de condenser les informations essentielles sur l'entreprise CGI. De plus, j'ai renforcé mes compétences en travail d'équipe, en collaborant avec les autres membres de mon groupe pour partager des idées, résoudre des problèmes et garantir une coordination efficace tout au long du projet. Enfin, j'ai acquis une expertise solide en HTML/CSS, en utilisant ces langages pour créer la structure, la mise en page et le design du site. En complément, j'ai également appris à réaliser des maquettes sur Whimsical.",
+          {
+            "text": "Voici un lien vers notre travail: ",
+            "link": {
+              "href": "https://aw0d.github.io/sae-cgi/index.html",
+              "text": "SAÉ CGI"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "exploitation-BD",
+    "title": "Exploitation d'une base de données",
+    "category": "Projets Universitaires",
+    "year": "2022 / 2023",
+    "badge": "Exploitation d'une base de données",
+    "img": "./../img/exploitation-bd.jpg",
+    "link": "./projets/sae/exploitation-BD.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "Par groupe de 2, l'objectif était de réaliser une étude simple contenant des graphiques pour répondre à une question précise à partir d'une base de données disponible en opendata sur les accidents de la route en France.",
+          "Le travail était divisé en plusieurs étapes:"
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mise en oeuvre",
+        "content": [
+          "Au cours de cette SAÉ, j'ai pu développer et approfondir mes compétences en bases de données et notamment en SQL. J'ai acquis une compréhension solide des principes fondamentaux de la gestion de bases de données et j'ai appris à concevoir et à interroger efficacement des bases de données relationnelles. De plus, j'ai exploré le potentiel du RMarkdown, ce qui m'a permis d'améliorer mes compétences en matière de génération de rapports et de présentation de résultats. Enfin, j'ai eu l'opportunité de perfectionner ma rédaction en anglais.",
+          {
+            "text": "Voici le document en anglais que nous devions réaliser pour cette SAÉ: ",
+            "link": {
+              "href": "#",
+              "text": "Etude statistique"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gamejam",
+    "title": "GameJam Python",
+    "category": "Projets Universitaires",
+    "year": "2023 / 2024",
+    "badge": "GameJam Python",
+    "img": "./../img/gamejam.png",
+    "link": "./projets/sae/gamejam.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "Par groupe de 4, notre objectif était de réaliser un jeu avec Python et la librairie PyGame en 4 jours. Le thème suivant était imposé :",
+          "Ce projet comportait trois aspects : la conception, la réalisation et la présentation.",
+          "Mon équipe et moi avons décidé de créer un jeu de plateforme, nommé UniversityRush, qui se déroule dans l'IUT2. Un étudiant court dans l'IUT à la recherche de savoir, matérialisé par des livres sous forme de bonus. Il doit faire attention à éviter les malus, représentés par des horloges indiquant que l'étudiant est arrivé en retard. Si l'étudiant atteint la fin du niveau en évitant les obstacles sur son chemin, il passe un test et obtient une note plus ou moins bonne en fonction du nombre de bonus et malus collectés."
+        ]
+      },
+      {
+        "title": "Travail réalisé",
+        "content": [
+          "Au cours de ce projet, j'ai été fortement impliqué dans le code Python. Je me suis chargé de l'écriture de la plupart des classes qui composent le jeu, telles que les classes du joueur, des obstacles, etc. J'ai codé la boucle principale du jeu et me suis occupé du système de collision."
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mises en œuvre",
+        "content": [
+          "Au cours de cette SAÉ, j'ai pu développer et approfondir mes compétences en Python. J'ai découvert la logique derrière la programmation d'un jeu vidéo. Enfin, j'ai pu améliorer mes compétences en travail d'équipe puisqu'il a fallu collaborer et mettre en place des méthodes de travail efficaces pour terminer le projet en 4 jours.",
+          {
+            "text": "Voici le référentiel Git qui contient le code source : .",
+            "link": {
+              "href": "https://github.com/Aw0d/GameJam-2023",
+              "text": "University Rush"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "installation-poste",
+    "title": "Installation d'un poste de travail Linux pour le développement",
+    "category": "Projets Professionnels",
+    "year": "2024",
+    "badge": "Installation d'un poste de travail Linux pour le développement",
+    "img": "./../img/poste-de-travail.jpg",
+    "link": "./projets/sae/installation-poste.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "L'objectif de cette SAÉ était d'installer une distribution linux (Debian) sur une machine virtuelle puis d'installer des outils de développement tel que JDK pour la programmation JAVA et un IDE."
+        ]
+      },
+      {
+        "title": "Ce que j'ai appris",
+        "content": [
+          "Cette SAÉ m'a permis d'apprendre à:"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "installation-services-reseaux",
+    "title": "Installation de services réseau",
+    "category": "Projets Universitaires",
+    "year": "2022 / 2023",
+    "badge": "Installation de services réseau",
+    "img": "./../img/service-reseau.jpg",
+    "link": "./projets/sae/installation-services-reseaux.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "L'objectif de cette SAÉ était d'installer un serveur Debian 11 sans interface graphique sur une machine virtuelle puis d'installer les services suivant:",
+          "Il fallait ensuite réaliser un guide d'installation en Anglais."
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mise en oeuvre",
+        "content": [
+          "Au cours de cette SAÉ, j'ai appris à installer et à configurer un serveur, ce qui m'a permis de comprendre les étapes nécessaires pour mettre en place un environnement de serveur fonctionnel. De plus, j'ai développé la capacité de rechercher et de me documenter efficacement pour installer et configurer divers logiciels. Enfin, j'ai eu l'occasion de pratiquer mes compétences en rédaction en anglais en créant un guide détaillé. Cela m'a permis de renforcer mes compétences en communication technique et de présenter des informations claires et concises dans une langue étrangère.",
+          {
+            "text": "Voici le document en anglais que je devez réaliser pour cette SAÉ: ",
+            "link": {
+              "href": "ressources/Network_Installation_Guide.pdf",
+              "text": "Network services installation guide"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-if",
+    "title": "What if?",
+    "category": "Projets Universitaires",
+    "year": "2023 / 2024",
+    "badge": "What if?",
+    "img": "./../img/what-if.jpg",
+    "link": "./projets/sae/what-if.html",
+    "sections": [
+      {
+        "title": "Objectif",
+        "content": [
+          "En groupes de 8, l'objectif était de créer un jeu ludo-éducatif destiné aux élèves de collège ou de lycée. Nous avons eu quelques séances consacrées à la conception du jeu, suivies de trois semaines pour sa réalisation. Ce projet offrait une grande liberté. Nous devions choisir précisément notre public cible, la matière sur laquelle notre jeu allait porter, ainsi que les technologies que nous allions utiliser.",
+          "Notre jeu porte sur l'histoire et s'adresse aux élèves de troisième souhaitant réviser pour le brevet. Il est structuré en niveaux correspondant aux chapitres du programme d'histoire. Pour chaque niveau, un scénario est raconté au joueur. Dans ce scénario, il y a deux personnages : un narrateur principal qui apporte des éléments de connaissances aux joueurs et un personnage loufoque qui propose des mini-jeux, permettant de tester le joueur et de le maintenir actif. Ces mini-jeux comprennent une carte interactive, un puzzle, une charade, un QCM et un texte à trous. Si le joueur se trompe ou échoue à un mini-jeu, une fin alternative, avec un ton humoristique, lui est présentée.",
+          "Pour ce projet, nous devions également prendre en compte les besoins des professeurs. Nous avons donc mis en place une interface spécifique qui permet à un professeur de créer des classes et d'y inviter des élèves. Ainsi, il peut suivre la progression de chaque élève et indiquer quels chapitres sont à faire.",
+          "Pour les technologies choisies, nous avons décidé de créer une application Web. Pour la partie back-end, nous avons opté pour PHP sans utiliser de framework, car nous n'en connaissions pas à ce moment-là et cela aurait ajouté un temps d'apprentissage supplémentaire alors que les délais étaient déjà serrés. Pour la partie front-end, nous avons utilisé HTML, CSS et JavaScript, là aussi sans framework, pour les mêmes raisons que pour PHP. Enfin, pour la partie serveur, une machine virtuelle nous a été fournie. Nous y avons installé un serveur Web Apache ainsi qu'un gestionnaire de base de données PostgreSQL."
+        ]
+      },
+      {
+        "title": "Travail réalisé",
+        "content": [
+          "Au cours de ce projet, j'ai participé à la réalisation des mini-jeux. J'ai codé la carte interactive, le puzzle, le QCM et le texte à trous en JavaScript. Je me suis également chargé de concevoir et de réaliser le processus de jeu, en intégrant la logique de communication entre le client et le serveur."
+        ]
+      },
+      {
+        "title": "Les compétences que j'ai mises en œuvre",
+        "content": [
+          "Au cours de cette SAÉ, j'ai pu développer et approfondir mes compétences en JavaScript et en PHP. J'ai également grandement amélioré ma capacité à travailler en équipe. En effet, étant donné la taille de notre groupe, il était primordial de bien communiquer pour mener à bien le projet.",
+          {
+            "text": "Voici notre dossier de projet final : . Malheuresement, la machine virtuelle n'étant plus disponible, nous n'avons pas de version jouable actuellement.",
+            "link": {
+              "href": "ressources/Iteration3-Dossier_Projet.pdf",
+              "text": "Dossier de projet"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
