@@ -11,6 +11,7 @@
 
     <!-- Nom -->
     <h2>Camus Mathieu</h2>
+    <p class="tagline">Développeur</p>
 
     <!-- Infos principales -->
     <ul class="infos">

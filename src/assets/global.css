@@ -44,3 +44,58 @@ article{text-align:justify;flex-grow:1;flex-basis:600px;padding:0 30px;}article 
 #sect-competences{display:flex;gap:10%;flex-wrap:wrap;} .langages{display:flex;flex-wrap:wrap;gap:10%;padding-left:20px;} .langages li{flex-basis:45%;}
 
 @media(max-width:1500px){main{width:100%;}}
+
+/* --- Responsive tweaks --- */
+@media(max-width:900px){
+  .sae-projets{flex-direction:column;align-items:center;}
+  aside{margin:10px;width:90%;}
+  article{padding:0 15px;}
+}
+
+/* --- Global smooth scrolling --- */
+html{scroll-behavior:smooth;}
+
+/* --- Scroll reveal animation --- */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease-out,transform .6s ease-out;}
+.reveal-visible{opacity:1;transform:none;}
+
+/* --- Sticky header with blur & shadow --- */
+header{position:sticky;top:0;backdrop-filter:blur(6px);transition:box-shadow .3s;}
+header.scrolled{box-shadow:0 2px 6px rgba(0,0,0,.3);}
+
+/* --- Navigation underline animation --- */
+header nav a{position:relative;overflow:hidden;}
+header nav a::after{content:"";position:absolute;left:50%;bottom:0;width:0;height:2px;background:var(--yellow);transition:width .3s,left .3s;}
+header nav a:hover::after,header nav a.actif::after{left:0;width:100%;}
+
+/* --- Ripple effect --- */
+.ripple-effect{position:absolute;border-radius:50%;background:rgba(255,255,255,.4);transform:scale(0);animation:ripple .6s ease-out;pointer-events:none;}
+@keyframes ripple{to{transform:scale(4);opacity:0;}}
+
+/* --- Card hover polish --- */
+.sae-projets figure:hover{box-shadow:0 6px 15px rgba(0,0,0,.5);}
+
+/* --- Aside polished glass style --- */
+aside{background:rgba(31,36,46,.8);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15);box-shadow:0 8px 20px rgba(0,0,0,.4);transition:transform .3s;}
+aside:hover{transform:translateY(-4px);}
+aside figure{border:4px solid var(--yellow);} 
+
+/* Tagline under name */
+.tagline{margin-top:-8px;margin-bottom:18px;font-style:italic;color:var(--medium-grey);font-size:1.05em;text-align:center;}
+
+/* Infos list better look */
+.infos{list-style:none;padding:0;margin:18px 0;}
+.infos li{display:flex;align-items:flex-start;gap:8px;padding-bottom:15px;line-height:1.4;font-size:.95em;}
+.infos li:last-child{padding-bottom:0;}
+.emojis{font-size:1.2em;width:auto;color:var(--yellow);} 
+.reseaux a{background:var(--dark-grey);display:flex;justify-content:center;align-items:center;}
+.reseaux{margin-top:12px;}
+.reseaux ul{list-style:none;display:flex;justify-content:center;gap:12px;padding:0;margin:0;}
+.reseaux li{padding:0;}
+.reseaux a{background:var(--dark-grey);display:flex;justify-content:center;align-items:center;height:34px;width:34px;aspect-ratio:1/1;border-radius:6px;transition:background-color .2s;overflow:hidden;}
+.reseaux a:hover{background:var(--yellow);}
+
+/* --- Footer style --- */
+footer{background:var(--black);color:var(--white);text-align:center;padding:25px 0;margin-top:60px;font-size:.9em;position:relative;}
+footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:80px;height:3px;background:var(--yellow);border-radius:3px;}
+
